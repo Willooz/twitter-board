@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "2.2.2"
+ruby '2.2.0'
 
 gem 'rails', '4.2.3'
 gem 'pg'
@@ -27,12 +27,6 @@ gem 'turbolinks'
 gem 'twitter'
 gem 'uglifier'
 
-group :production do
-  gem 'rails_12factor'
-  gem 'rack-timeout'
-  gem 'puma'
-end
-
 group :development do
   gem 'annotate'
   gem 'better_errors'
@@ -42,4 +36,10 @@ group :development do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'spring'
+end
+
+group :production do
+  gem 'rails_12factor'
+  gem 'rack-timeout'
+  gem 'puma'
 end
