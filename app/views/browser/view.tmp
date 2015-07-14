@@ -1,0 +1,55 @@
+<h1>Most active users</h1>
+<ul>
+  <% for user in @active_users do %>
+    <!-- <li><%= user.xyz %></li> -->
+  <% end %>
+</ul>
+
+<h1>Most followed users</h1>
+<ul>
+  <% for user in @followed_users do %>
+    <!-- <li><%= user.xyz %></li> -->
+  <% end %>
+</ul>
+
+<h1>Most retweeted users</h1>
+<ul>
+  <% for user in @retweeted_users do %>
+    <!-- <li><%= user.xyz %></li> -->
+  <% end %>
+</ul>
+
+<h1>Most favorited users</h1>
+<ul>
+  <% for user in @favorited_users do %>
+    <!-- <li><%= user.xyz %></li> -->
+  <% end %>
+</ul>
+
+<h1>Most on-topic users</h1>
+<ul>
+  <% for user in @topic_users do %>
+    <!-- <li><%= user.xyz %></li> -->
+  <% end %>
+</ul>
+
+<h1>Most listed users</h1>
+<ul>
+  <% for user in @listed_users do %>
+    <!-- <li><%= user.xyz %></li> -->
+  <% end %>
+</ul>
+
+<h1>Most influencial users (key role)</h1>
+<ul>
+  <% for user in @influencial_users do %>
+    <!-- <li><%= user.xyz %></li> -->
+  <% end %>
+</ul>
+
+<h1>Most insider users (key company)</h1>
+<ul>
+  <% for user in @insider_users do %>
+    <!-- <li><%= user.xyz %></li> -->
+  <% end %>
+</ul>

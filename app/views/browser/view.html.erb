@@ -1,0 +1,22 @@
+yolo
+
+<table>
+ <% @people.each do |person| %>
+  <tr>
+    <td><%= person.id %></td>
+    <td><%= person.screen_name %></td>
+    <td colspan="3"><%= person.description %></td>
+  </tr>
+
+  <tr>
+    <td>Tweets: <%= person.statuses_count %></td>
+    <td>Ratio: <%= (person.followers_count / (person.friends_count + 1)).round(1) %></td>
+    <td>Followers: <%= person.followers_count %></td>
+    <td>Following: <%= person.friends_count %></td>
+    <td>Listed: <%= person.listed_count %></td>
+  </tr>
+
+
+ <% end %>
+
+</table>
